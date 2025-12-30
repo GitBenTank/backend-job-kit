@@ -2,6 +2,21 @@
 
 A portfolio-grade FastAPI backend project demonstrating real-world backend engineering skills through incremental, production-focused development. Each day builds on the previous work, introducing new concepts while maintaining clean architecture and professional documentation.
 
+## CTRL+Strum Blog (Backend City)
+
+Backend City is a CTRL+Strum series that explains backend engineering using a city metaphor. Each post builds on the previous, showing how production-ready backends are constructed from the ground up.
+
+**Published Articles:**
+- [Zero Day](https://ctrlstrum.com/blogs/the-wall/backend-city-zero-day)
+- [Day 01: Pouring the Foundation](https://ctrlstrum.com/blogs/the-wall/backend-city-day-01)
+
+**Publishing Flow:**
+- Write in `/docs/blog` (markdown canonical)
+- Paste into Shopify article (HTML template)
+- Upload hero image
+- Add tags
+- Verify links + Next Up buttons
+
 ## What This Demonstrates
 
 This project showcases backend engineering fundamentals through practical implementation:
