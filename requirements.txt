@@ -6,9 +6,12 @@ email-validator==2.3.0
 fastapi==0.115.0
 h11==0.16.0
 httptools==0.7.1
+httpx==0.28.1
 idna==3.11
 pydantic==2.12.5
+pydantic-settings==2.6.1
 pydantic_core==2.41.5
+pytest==8.3.4
 python-dotenv==1.2.1
 PyYAML==6.0.3
 starlette==0.38.6

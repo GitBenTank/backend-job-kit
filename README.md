@@ -57,6 +57,38 @@ backend-job-kit/
 
 See [docs/SETUP.md](docs/SETUP.md) for installation and setup instructions.
 
+## Runbook
+
+### Run the Application
+
+```bash
+make run          # Runs on port 8000 (default)
+make run PORT=8002 # Run on custom port
+make run2         # Runs on port 8001
+make kill         # Kill process on port 8000 (or PORT=8002 for custom port)
+# or
+uvicorn app.main:app --reload --port 8000
+```
+
+The API will be available at `http://localhost:8000` (or the specified port). Interactive docs at `http://localhost:8000/docs`.
+
+### Run Tests
+
+```bash
+make test
+# or
+pytest
+```
+
+### Format and Lint
+
+```bash
+make fmt
+# or
+ruff format .
+ruff check --fix .
+```
+
 ## Tech Stack
 
 - **FastAPI**: Modern Python web framework
