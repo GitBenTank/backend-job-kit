@@ -17,6 +17,7 @@ This project showcases backend engineering fundamentals through practical implem
 
 This project is built incrementally, with each day documented in detail:
 
+- [Day 01: Project Setup and API Foundation](docs/blog/day-01-project-setup-and-api-foundation.md)
 - [Day 02: User Schemas, Validation, and API Contracts](docs/blog/day-02-user-schemas-and-validation.md)
 
 Future days will cover database integration (PostgreSQL + SQLAlchemy), migrations, connection pooling, testing strategies, and deployment patterns.
